@@ -1,0 +1,43 @@
+PODS:
+  - BitmovinAnalyticsCollector/BitmovinPlayer (3.7.0):
+    - BitmovinAnalyticsCollector/Core
+    - BitmovinPlayerCore (~> 3.48)
+  - BitmovinAnalyticsCollector/Core (3.7.0)
+  - BitmovinPlayer (3.66.1):
+    - BitmovinAnalyticsCollector/BitmovinPlayer (~> 3.0)
+    - BitmovinPlayerCore (= 3.66.1)
+  - BitmovinPlayerCore (3.66.1)
+  - S2S-SDK/Bitmovin (1.17.1):
+    - Sentry (= 8.17.0)
+  - Sentry (8.17.0):
+    - Sentry/Core (= 8.17.0)
+    - SentryPrivate (= 8.17.0)
+  - Sentry/Core (8.17.0):
+    - SentryPrivate (= 8.17.0)
+  - SentryPrivate (8.17.0)
+
+DEPENDENCIES:
+  - BitmovinPlayer (= 3.66.1)
+  - S2S-SDK/Bitmovin
+
+SPEC REPOS:
+  https://github.com/bitmovin/cocoapod-specs.git:
+    - BitmovinAnalyticsCollector
+    - BitmovinPlayer
+    - BitmovinPlayerCore
+  trunk:
+    - S2S-SDK
+    - Sentry
+    - SentryPrivate
+
+SPEC CHECKSUMS:
+  BitmovinAnalyticsCollector: bbd82c0b8e11aefacd8e53b6e40c62f2cba6f3f5
+  BitmovinPlayer: 0d5990c196eff314b7081c49ed481e9d465d7281
+  BitmovinPlayerCore: f6f8b8655bece7c8e9daccc49cc55642212d9c2f
+  S2S-SDK: ed281ec8c8ab92616a6de238d187b68d8e145388
+  Sentry: 08c4200e02bd1dc235c57c904b948e65f8f3ceb4
+  SentryPrivate: 1986fdf51e44758f7e191ee8fa8bf072e391d461
+
+PODFILE CHECKSUM: df4312f834b2b58503015bb9bf152b459e61cdd8
+
+COCOAPODS: 1.15.2
