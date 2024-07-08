@@ -4,6 +4,8 @@
 //
 
 import UIKit
+import BitmovinPlayer
+import s2s_sdk_ios_bitmovin
 
 class ViewController: UIViewController {
 
