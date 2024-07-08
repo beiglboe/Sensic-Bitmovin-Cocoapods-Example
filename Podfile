@@ -10,6 +10,6 @@ target 'Sensic-Bitmovin-Cocoapods-Example' do
 
   pod 'BitmovinPlayer', '3.66.1'
 
-  pod 'S2S-SDK/Bitmovin'
+  pod 'S2S-SDK/AgentOnly'
 
 end

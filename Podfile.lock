@@ -7,7 +7,7 @@ PODS:
     - BitmovinAnalyticsCollector/BitmovinPlayer (~> 3.0)
     - BitmovinPlayerCore (= 3.66.1)
   - BitmovinPlayerCore (3.66.1)
-  - S2S-SDK/Bitmovin (1.17.1):
+  - S2S-SDK/AgentOnly (1.17.1):
     - Sentry (= 8.17.0)
   - Sentry (8.17.0):
     - Sentry/Core (= 8.17.0)
@@ -18,7 +18,7 @@ PODS:
 
 DEPENDENCIES:
   - BitmovinPlayer (= 3.66.1)
-  - S2S-SDK/Bitmovin
+  - S2S-SDK/AgentOnly
 
 SPEC REPOS:
   https://github.com/bitmovin/cocoapod-specs.git:
@@ -38,6 +38,6 @@ SPEC CHECKSUMS:
   Sentry: 08c4200e02bd1dc235c57c904b948e65f8f3ceb4
   SentryPrivate: 1986fdf51e44758f7e191ee8fa8bf072e391d461
 
-PODFILE CHECKSUM: df4312f834b2b58503015bb9bf152b459e61cdd8
+PODFILE CHECKSUM: 5317219ee7f2771960ab1604c0e14e48c6ae1bb4
 
 COCOAPODS: 1.15.2
