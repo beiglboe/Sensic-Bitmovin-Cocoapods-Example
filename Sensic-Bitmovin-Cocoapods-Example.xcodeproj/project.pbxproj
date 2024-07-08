@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C135EF753C4F3AAE68765BA /* Pods_Sensic_Bitmovin_Cocoapods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87310785DD974D79EF82AE8 /* Pods_Sensic_Bitmovin_Cocoapods_Example.framework */; };
 		B392CC362C3C060E004A157A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B392CC352C3C060E004A157A /* AppDelegate.swift */; };
 		B392CC382C3C060E004A157A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B392CC372C3C060E004A157A /* SceneDelegate.swift */; };
 		B392CC3A2C3C060E004A157A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B392CC392C3C060E004A157A /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38928D58DAD819012F243CC8 /* Pods-Sensic-Bitmovin-Cocoapods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensic-Bitmovin-Cocoapods-Example.release.xcconfig"; path = "Target Support Files/Pods-Sensic-Bitmovin-Cocoapods-Example/Pods-Sensic-Bitmovin-Cocoapods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A87310785DD974D79EF82AE8 /* Pods_Sensic_Bitmovin_Cocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sensic_Bitmovin_Cocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B392CC322C3C060E004A157A /* Sensic-Bitmovin-Cocoapods-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sensic-Bitmovin-Cocoapods-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B392CC352C3C060E004A157A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B392CC372C3C060E004A157A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B392CC3E2C3C060F004A157A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B392CC412C3C060F004A157A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B392CC432C3C060F004A157A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16C75C9C7C202757CB4777B /* Pods-Sensic-Bitmovin-Cocoapods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensic-Bitmovin-Cocoapods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Sensic-Bitmovin-Cocoapods-Example/Pods-Sensic-Bitmovin-Cocoapods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C135EF753C4F3AAE68765BA /* Pods_Sensic_Bitmovin_Cocoapods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116EEB43190A1F1DBA300FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D16C75C9C7C202757CB4777B /* Pods-Sensic-Bitmovin-Cocoapods-Example.debug.xcconfig */,
+				38928D58DAD819012F243CC8 /* Pods-Sensic-Bitmovin-Cocoapods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57B1BC4407B9A0638C016DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87310785DD974D79EF82AE8 /* Pods_Sensic_Bitmovin_Cocoapods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B392CC292C3C060E004A157A = {
 			isa = PBXGroup;
 			children = (
 				B392CC342C3C060E004A157A /* Sensic-Bitmovin-Cocoapods-Example */,
 				B392CC332C3C060E004A157A /* Products */,
+				116EEB43190A1F1DBA300FDD /* Pods */,
+				57B1BC4407B9A0638C016DDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B392CC462C3C060F004A157A /* Build configuration list for PBXNativeTarget "Sensic-Bitmovin-Cocoapods-Example" */;
 			buildPhases = (
+				29994C6AFC8276C635243695 /* [CP] Check Pods Manifest.lock */,
 				B392CC2E2C3C060E004A157A /* Sources */,
 				B392CC2F2C3C060E004A157A /* Frameworks */,
 				B392CC302C3C060E004A157A /* Resources */,
+				4B4DAE368612FABEEEB061BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29994C6AFC8276C635243695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sensic-Bitmovin-Cocoapods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B4DAE368612FABEEEB061BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensic-Bitmovin-Cocoapods-Example/Pods-Sensic-Bitmovin-Cocoapods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensic-Bitmovin-Cocoapods-Example/Pods-Sensic-Bitmovin-Cocoapods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sensic-Bitmovin-Cocoapods-Example/Pods-Sensic-Bitmovin-Cocoapods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B392CC2E2C3C060E004A157A /* Sources */ = {
@@ -287,6 +356,7 @@
 		};
 		B392CC472C3C060F004A157A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16C75C9C7C202757CB4777B /* Pods-Sensic-Bitmovin-Cocoapods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +384,7 @@
 		};
 		B392CC482C3C060F004A157A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38928D58DAD819012F243CC8 /* Pods-Sensic-Bitmovin-Cocoapods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
